@@ -1,0 +1,9 @@
+s = "abcdefghijklmnopqrstuvwxyz"
+n = len(s)
+
+for i in range(n):
+  for j in range(i + 1):
+    if j > n - 1:
+      break
+    print(s[j], end="")
+  print()
