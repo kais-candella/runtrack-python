@@ -1,0 +1,9 @@
+def swap_first_last(l):
+  first = l[0]
+  last = l[-1]
+  l[0] = last
+  l[-1] = first
+
+l = [1, 2, 3, 4, 5]
+swap_first_last(l)
+print(l)

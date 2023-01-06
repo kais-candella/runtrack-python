@@ -1,0 +1,6 @@
+def add_fruit(fruits):
+  fruits.append("Melon")
+
+fruits = ["pomme", "cerise", "orange"]
+add_fruit(fruits)
+print(fruits)

@@ -1,0 +1,10 @@
+def my_long_words(n, s):
+  words = s.split()
+  result = []
+  for word in words:
+    if len(word) > n:
+      result.append(word)
+  return result
+
+s = "Le sun s'est levé, je n'dormais pas Ces pierres précieuses en témoignent Le ciel s'éclaire avec ou sans toi J'la quitterai si mère veut qu'j'm'en sépare Même si on arrête là, ça n'arrête pas On kiffe et on n'arrête pas Une seule vie donc le temps presse Le temps presse et le ciel nous fait des dessins J'tourne en ville phares éteints, les films ont déteint Nous, on prend la haine, on t'éteint Le sun s'est levé, je n'dormais pas, hier est un acquis Personne ne m'a promis demain"
+print(my_long_words(3, s))
